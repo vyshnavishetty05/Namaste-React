@@ -71,7 +71,7 @@ From a user experience (UX) perspective, the most important thing is to show you
 ## 7. What is the difference between JS expression and JS statement
 `JS Expression` - A js expression produces a value. A number, string,ternary conditions (return true or false), math opertions and array map method (returns new array) are all examples of js expression. 
 ```
-1. "Harshi" -> String is a valid expression 
+1. "Hello" -> String is a valid expression 
 2. 1234    -> Number is a valid expression 
 3. (isLoggedIn) ? "Logout" : "Login"    -> Ternary operator returning value is a valid expression
 4. [1,2,3,4].map(num => num*2)  -> array map function is a valid expression which returns a new array after transformation
@@ -83,7 +83,7 @@ From a user experience (UX) perspective, the most important thing is to show you
 ```
 1. console.log("This is a js statement")  -> This does not return any value, just prints the content on screen.
 
-2. let name = "Harshi";  -> Variable assigment is a statement 
+2. let name = "Hello";  -> Variable assigment is a statement 
 
 3. if(true){
     console.log("true"); 
